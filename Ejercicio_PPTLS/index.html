@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="author" content="Ivan Rios Raya">
+    <title>Piedra, Papel, Tijera, Lagarto, Spock</title>
+    <link rel="stylesheet" href="estilos.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <h1>Piedra, Papel, Tijera, Lagarto, Spock</h1>
+    <div>
+        <fieldset>
+            <legend>Elige con que quieres jugar</legend>
+            <div class="opciones">
+                <select name="" id="opcion">
+                    <option value="piedra" id="piedra">Piedra</option>
+                    <option value="papel" id="papel">Papel</option>
+                    <option value="tijera" id="tijera">Tijera</option>
+                    <option value="lagarto" id="lagarto">Lagarto</option>
+                    <option value="spock" id="spock">Spock</option>
+                </select>
+                <button onclick="jugar()" id="boton">Jugar</button>
+            </div>
+        </fieldset>
+    </div>
+    <div id="resultado"></div>
+</body>
+<script src="js/javascript.js"></script>
+</html>
