@@ -1,5 +1,10 @@
+const boton = document.getElementById("boton");
+
+boton.addEventListener("click", function() {
+    jugar();
+});
+
 function jugar() {
-    document.getElementById("boton").addEventListener("click", jugar);
 
     let opciones = ["piedra", "papel", "tijera", "lagarto", "spock"];
     let interaccion = { 
