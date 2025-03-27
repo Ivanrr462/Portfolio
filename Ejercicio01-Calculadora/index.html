@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="author" content="Ivan Rios Raya">
+    <title>Calculadora con JavaScript</title>
+    <link rel="stylesheet" href="estilos.css">
+</head>
+
+<body>
+    <div>
+        <fieldset>
+            <legend>Calculadora</legend>
+            <div class="calculadora">
+            <input type="number" id="numero1" placeholder="Numero 1">
+            <input type="number" id="numero2" placeholder="Numero 2">
+
+            <button onclick="sumar()" class="botonsumar">Sumar</button>
+            <button onclick="restar()" class="botonrestar">Restar</button>
+            <button onclick="multiplicar()" class="botonmultiplicar">Multiplicar</button>
+            <button onclick="dividir()" class="botondividir">Dividir</button>
+        </div>
+            <p id="resultado"></p>
+
+        </fieldset>
+    </div>
+</body>
+<script src="js/javascript.js"></script>
+
+</html>
