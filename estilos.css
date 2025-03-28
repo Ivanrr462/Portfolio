@@ -1,0 +1,102 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    min-height: 100vh;
+    min-width: 100vh;
+    line-height: 1.6;
+    font-family: 'Arial', sans-serif;
+    display: flex;
+    background-color: rgb(157, 233, 233);
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: rgb(58, 78, 78);
+    color: white;
+    padding: 1.5rem 0;
+    text-align: center;
+    width: 100%;
+}
+
+main {
+    padding: 0 2rem 2rem 2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex-grow: 1;
+}
+
+footer {
+   background-color: rgb(58, 78, 78);
+   color: white;
+   padding: 1rem 0;
+   font-weight: 0.9rem;
+   width: 100%;
+}
+
+.contenido {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.templates {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.boton {
+    background-color: rgb(58, 78, 78);
+    color: white;
+    border: none;
+    padding: 0.5rem 1rem;
+    font-weight: 1rem;
+    border-radius: 5px;
+    margin-top: 9px;
+}
+
+
+.imagenes {
+    display: flex; 
+    justify-content: center; 
+    gap: 10px; 
+    margin-top: 10px;
+}
+
+.grid{
+    display: grid;
+    grid-template-columns: repeat(3, 33%);
+    width: 100%;
+    padding: 10px;
+}
+
+.html {
+    height: 35px;
+    width: 35px;
+}
+
+.css {
+    height: 35px;
+    width: 35px;
+}
+
+.js {
+    height: 35px;
+    width: 35px;
+}
+
+.img {
+    height: 80%;
+    width: 70%;
+}
