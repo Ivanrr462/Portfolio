@@ -64,6 +64,12 @@ footer {
     font-weight: 1rem;
     border-radius: 5px;
     margin-top: 9px;
+    transition: transform 0.3s ease-in-out;
+}
+
+.boton:hover {
+    cursor: pointer;
+    transform: scale(1.1);
 }
 
 
