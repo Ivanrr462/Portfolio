@@ -49,19 +49,29 @@ footer {
     align-items: center;
 }
 
+.grid{
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    grid-template-columns: repeat(3, 33%);
+    width: 100%;
+    padding: 10px;
+    gap: 5px;
+}
+
 .templates {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    transition: transform 0.6s ease-in-out;
+    border-radius: 7px;
+    border: 0.7px solid rgb(149, 210, 210);
+    width: 75%;
 }
 
-.templates:hover {
-    transform: scale(1.1);
-    border-radius: 7px;
-    border: 1px solid black;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+.img {
+    height: 80%;
+    width: 70%;
 }
 
 .boton {
@@ -85,15 +95,8 @@ footer {
 .imagenes {
     display: flex; 
     justify-content: center; 
-    gap: 10px; 
+    gap: 5px; 
     margin-top: 10px;
-}
-
-.grid{
-    display: grid;
-    grid-template-columns: repeat(3, 33%);
-    width: 100%;
-    padding: 10px;
 }
 
 .html {
@@ -109,11 +112,6 @@ footer {
 .js {
     height: 35px;
     width: 35px;
-}
-
-.img {
-    height: 80%;
-    width: 70%;
 }
 
 .goku {
