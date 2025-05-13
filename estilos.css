@@ -5,7 +5,6 @@
 
 body {
     min-height: 100vh;
-    min-width: 100vh;
     line-height: 1.6;
     font-family: 'Arial', sans-serif;
     display: flex;
@@ -60,6 +59,8 @@ footer {
 }
 
 .templates {
+    background-color: rgb(102, 122, 122);
+    color: white;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -67,6 +68,9 @@ footer {
     border-radius: 7px;
     border: 0.7px solid rgb(149, 210, 210);
     width: 75%;
+    height: 90%;
+    margin: 0 auto;
+    margin-bottom: 30px;
 }
 
 .img {
@@ -74,8 +78,30 @@ footer {
     width: 70%;
 }
 
+.botones {
+    display: flex;
+    gap: 8px;
+}
+
+.github {
+    background-color: rgb(49, 130, 130);
+    color: white;
+    border: none;
+    font-weight: 1rem;
+    border-radius: 5px;
+    margin-top: 9px;
+    margin-bottom: 5px;
+    box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s ease-in-out;
+}
+
+.github:hover {
+    cursor: pointer;
+    transform: scale(1.1);
+}
+
 .boton {
-    background-color: rgb(58, 78, 78);
+    background-color: rgb(58, 80, 80);
     color: white;
     border: none;
     padding: 0.5rem 1rem;
@@ -83,6 +109,7 @@ footer {
     border-radius: 5px;
     margin-top: 9px;
     margin-bottom: 5px;
+    box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.2);
     transition: transform 0.3s ease-in-out;
 }
 
