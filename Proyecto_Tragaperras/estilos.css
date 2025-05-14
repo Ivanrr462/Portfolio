@@ -1,21 +1,72 @@
-.slot-machine {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        height: 200px;
-      }
-     
-      .slot img {
-        height: 80px;
-        width: 80px;
-      }
+* {
+  margin: 0;
+  box-sizing: border-box;
+}
 
-      button {
-        padding: 10px 20px;
-        margin: 10px;
-        font-size: 16px;
-      }
-      .bg{
-        background-image: url(imagenes/casino2.jpg);
-        background-size: cover;
-      }
+body {
+  min-height: 100vh;
+  background-image: url(imagenes/casino2.jpg);
+  background-size: cover;
+  line-height: 1.6;
+  font-family: "Arial", sans-serif;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 0;
+  padding: 0;
+}
+
+.slot-machine {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 200px;
+}
+
+
+.slot img {
+  border-radius: 5px;
+  height: 80px;
+  width: 80px;
+  gap: 5px;
+}
+
+.startstop {
+  text-align: center;
+}
+
+.startstop button {
+  padding: 10px 20px;
+  margin: 10px;
+  font-size: 16px;
+  margin-bottom: 6px;
+  border-radius: 5px;
+}
+
+.premio{
+  margin-bottom: 6px;
+  border-radius: 5px;
+  padding: 10px 20px;
+  margin: 10px;
+  font-size: 16px;
+}
+
+.message {
+  text-align: center;
+}
+
+.imagenlibre {
+  position: absolute;
+  top: 30px;
+  left: 60px;
+  width: 200px;
+  height: 200px;
+  background-color: blue;
+}
+
+.imagenlibre img {
+  width: 200px;
+  height: 200px;
+}
+

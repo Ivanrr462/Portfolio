@@ -1,30 +1,36 @@
-
 <!DOCTYPE html>
 <html>
-  <head>
-    <link rel="stylesheet" href="estilos.css">
-  </head>
-  <body class="bg">
-    <div class="slot-machine">
-      <div class="slot">
-        <img id="slot1" src="">
-      </div>
-      <div class="slot">
-        <img id="slot2" src="">
-      </div>
-      <div class="slot">
-        <img id="slot3" src="">
-      </div>
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="author" content="Ivan Rios Raya">
+  <title>Tragaperras</title>
+  <link rel="stylesheet" href="estilos.css">
+</head>
+
+<body>
+  <div class="slot-machine">
+    <div class="slot">
+      <img id="slot1" src="imagenes/casinopreview.png">
     </div>
-    <div style="text-align: center;">
-      <button id="start-button">START</button>
-      <button id="stop-button" disabled>STOP</button>
+    <div class="slot">
+      <img id="slot2" src="imagenes/casinopreview.png">
     </div>
-    <div id="message" style="text-align: center;"></div>
-    <center><button><a href="imagenes/premio2.jpg">PREMIO</a></button></center>
-    <div style="position:absolute; top: 30px;left: 60px; width: 200px; height: 200px; background-color:blue;">
-        <img src="imagenes/tetas.jpg" width="200px" height="200px"></div>
-    <center><img src="imagenes/casino.jpg"></center>
-  </body>
-      <script src="js/javascript.js"></script>
+    <div class="slot">
+      <img id="slot3" src="imagenes/casinopreview.png">
+    </div>
+  </div>
+  <div class="startstop">
+    <button id="start-button">START</button>
+    <button id="stop-button" disabled>STOP</button>
+  </div>
+  <div class="message" id="message"></div>
+  <center><button class="premio"><a href="imagenes/premio2.jpg">PREMIO</a></button></center>
+  <div class="imagenlibre">
+    <img src="imagenes/freespins.jpg">
+  </div>
+  <center><img src="imagenes/casino.jpg"></center>
+</body>
+<script src="js/javascript.js"></script>
+
 </html>
