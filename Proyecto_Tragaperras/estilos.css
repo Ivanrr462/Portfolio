@@ -22,6 +22,7 @@ body {
   justify-content: center;
   align-items: center;
   height: 200px;
+  gap: 5px;
 }
 
 
@@ -29,7 +30,6 @@ body {
   border-radius: 5px;
   height: 80px;
   width: 80px;
-  gap: 5px;
 }
 
 .startstop {
