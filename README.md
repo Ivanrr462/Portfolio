@@ -59,7 +59,7 @@ Realiza operaciones matemáticas básicas de forma rápida y sencilla.
 
 ---
 
-## 🏠 Página Principal del Portfolio
+## 🏠 Página Principal 
 
 **Ruta:** [`index.html`](index.html)  
 El punto de entrada a todos los proyectos.  
@@ -70,9 +70,6 @@ El punto de entrada a todos los proyectos.
 
 ---
 
-# Portfolio
-
-Portfolio con proyectos hechos gracias a lo aprendido en la asignatura Lenguaje de Marcas
 
 ## 📁 Estructura del repositorio
 
